@@ -24,3 +24,6 @@ Route::get('/login', function () {
 Route::get('/signup', function () {
     return view('pages.signup');
 });
+Route::get('/trangchu', function () {
+    return view('pages.trangchu');
+});
